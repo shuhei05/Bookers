@@ -1,0 +1,78 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h2{
+    margin-left:20px
+
+}
+
+table{
+    margin-left:30px;
+    font-size:13px;
+    word-break: break-all;
+
+}
+
+.title{
+  text-align:center;
+}
+
+.naiyou{
+  text-align:left;
+  font-weight:100;
+}
+
+.naiyou-shousai{
+  padding:0 5px 5px 0;
+  font-weight: normal;
+}
+
+footer{
+  margin-left:20px;
+}
+
+h3{
+  font-size:18px;
+
+}
+
+div{
+  font-size:13px;
+}
+
+.text{
+    padding-bottom:9px;
+}
+
+.show{margin:30px 0 20px 60px;
+}
+
+.henkou{margin:30px 0 0 20px;}
+
+span {
+  font-weight: bold;
+}
+
+h1{
+    font-size:25px;
+}
+
+.edit{
+    margin-bottom:10px;
+}
+
+.edit-all{
+    margin:20px 0 0 20px;
+}
+
+
+.notice{
+    color:#99FF99;
+    margin:40px 0 40px 60px;}
+
+.noti{
+    color:#99FF99;
+    margin:30px 0 20px 60px
+
+}
