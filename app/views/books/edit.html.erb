@@ -1,5 +1,17 @@
 <div class="edit-all">
 <h1>Editing Book</h1>
+
+<% if @book.errors.any? %>
+  <div class="errors">
+    <h4>2 errors prohibited this book from being saved:</h4>
+        <ul>
+            <% @book.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+            <% end %>
+        </ul>
+  </div>
+  <% end %>
+
 <%= form_with model:@book, local:true do |f| %>
   <div class="edit">Title<br>
   <%= f.text_field :title %></div>
@@ -8,4 +20,4 @@
   <div class="edit"><%= f.submit"Update Book" %></div>
   <div class"edit"><%= link_to "Show", book_path(@book.id),method: :get %> | <%= link_to "Back", books_path %></div>
   <% end %>
-</div>
+  </div>
